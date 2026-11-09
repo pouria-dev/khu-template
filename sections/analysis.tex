@@ -1,0 +1,21 @@
+\section{محاسبات و تحلیل}
+
+ثابت زمانی نظری با مقادیر نامی قطعات برابر است با
+\begin{equation}
+  \tau_{\mathrm{th}}=RC=(10\times 10^3)(100\times 10^{-6})=1.00\,\mathrm{s}.
+  \label{eq:tau-th}
+\end{equation}
+از روی داده‌های جدول~\ref{tab:vc}، زمانی که ولتاژ به $0.63V_s\approx 6.3\,\mathrm{V}$ می‌رسد حدود $1.0\,\mathrm{s}$ است؛ بنابراین
+\begin{equation}
+  \tau_{\mathrm{exp}}\approx 1.0\,\mathrm{s}.
+\end{equation}
+خطای نسبی نمونه:
+\begin{equation}
+  e_r=\left|\frac{\tau_{\mathrm{exp}}-\tau_{\mathrm{th}}}{\tau_{\mathrm{th}}}\right|\times 100\% \approx 0\%.
+\end{equation}
+در گزارش واقعی، تلرانس مقاومت و خازن، مقاومت داخلی منبع و خطای ولت‌متر را در بودجه خطا وارد کنید.
+محاسبات چندخطی را می‌توان در محیط \texttt{align} نوشت:
+\begin{align}
+  i(t) &= \frac{V_s}{R}\,e^{-t/\tau}, \\
+  w_C(t) &= \tfrac{1}{2}C v_C^2(t).
+\end{align}

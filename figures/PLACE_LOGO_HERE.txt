@@ -1,0 +1,13 @@
+Place the official Kharazmi University logo in this directory as:
+
+  figures/khu-logo.png
+  (also accepted: khu-logo.pdf or khu-logo.jpg)
+
+Do not use an unofficial or reconstructed emblem.
+The cover page automatically switches from the placeholder box
+to the official logo when one of the files above is present.
+
+Suggested sources:
+  - KHU official website (khu.ac.ir)
+  - Faculty / department letterhead
+  - University public-relations office
